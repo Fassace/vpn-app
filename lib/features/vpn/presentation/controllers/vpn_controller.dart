@@ -15,7 +15,8 @@ class VpnNotifier extends StateNotifier<VpnStatus> {
       state = VpnStatus.error;
     }
   }
-
 }
 
-final vpnProvider = StateNotifierProvider<VpnNotifier, VpnStatus>((ref) => VpnNotifier());
+final vpnProvider = StateNotifierProvider<VpnNotifier, VpnStatus>(
+  (ref) => VpnNotifier(),
+);

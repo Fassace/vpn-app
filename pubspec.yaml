@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_riverpod: ^2.5.1
+  http: ^1.1.0   # add this line
   go_router: ^14.2.3
   package_info_plus: ^8.0.2
   device_info_plus: ^10.1.0
